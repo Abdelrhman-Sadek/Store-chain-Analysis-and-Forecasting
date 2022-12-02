@@ -15,7 +15,7 @@ This is a complete Time_Series store chain analysis for:
 <br/>
 knowing How many shop visitors in each day(transactions) and how it effects the sales 
 <br/>
-** use this informations and train a Hybrid model of Liner Regression and CatBoostRegressor to forecast test_detaset(16 day) of sales for each product family in every store **
+**use this informations and train a Hybrid model of Liner Regression and CatBoostRegressor to forecast test_detaset(16 day) of sales for each product family in every store**
 <br/>
 <br/>
 the acc of the Hybrid model is pretty good (a round 99%)
