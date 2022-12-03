@@ -19,3 +19,7 @@ use this informations and train a Hybrid model of Liner Regression and CatBoostR
 <br/>
 <br/>
 **the acc of the Hybrid model is pretty good (a round 99%)**
+<br/>
+Data Link: 
+<br/>
+https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview
