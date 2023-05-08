@@ -29,6 +29,7 @@ Monthly:
 ![image](https://user-images.githubusercontent.com/94745919/236908420-6716b2b1-bf2f-466c-9d2b-10615816963e.png)
 </br>
 Week day average sales:
+</br>
 ![image](https://user-images.githubusercontent.com/94745919/236904876-15f187dc-6822-4cc1-b140-c88baf722d5f.png)
 </br>
 there is an increse of sales every year that indicates a trend variable
