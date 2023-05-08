@@ -99,13 +99,36 @@ the plots shows:
 
 * the highest store culster is 5 with over then 1000 and percentage of 16%
 
-### Transations
-
-
+## Modeling
+Linear regression excels at extrapolating trends, but can't learn interactions. **CATBoost** excels at learning interactions, but can't extrapolate trends. In the next codes, I'll create **"hybrid"** forecasters that combine complementary learning algorithms and let the strengths of one make up for the weakness of the other.
 </br>
-then use this informations and train a Hybrid model of Liner Regression and CatBoostRegressor to forecast test_detaset(16 day) of sales for each product family in every store
+so why not use them both to get better result 
+</br>
+It's possible to use one algorithm for some of the components and another algorithm for the rest. This way we can always choose the best algorithm for each component. To do this, we use one algorithm to fit the original series and then the second algorithm to fit the residual series.
+</br>
+**In detail, the process is this:**
+</br>
+1-Train and predict with first model
+model_1.fit(X_train_1, y_train)
+</br>
+y_pred_1 = model_1.predict(X_train)
+</br>
+2-Train and predict with second model on residuals
+</br>
+model_2.fit(X_train_2, y_train - y_pred_1)
+</br>
+y_pred_2 = model_2.predict(X_train_2)
+</br>
+** And then Add to get overall predictions**
+</br>
+y_pred = y_pred_1 + y_pred_2
+</br>
+![image](https://user-images.githubusercontent.com/94745919/236915924-67ce48e7-c212-415f-b393-e0f36de666b7.png)
 
-the acc of the Hybrid model is pretty good (a round 99%)
+## Forcasting the next 16 days sales:
+![image](https://user-images.githubusercontent.com/94745919/236916151-7ef5e7cf-e66e-4e0e-8d64-74ee9430bf03.png)
+
+
 <br/>
 Data Link: 
 <br/>
