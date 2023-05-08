@@ -88,10 +88,18 @@ Sales is significantly higer in **Holidays**
 ![image](https://user-images.githubusercontent.com/94745919/236913120-0bab6331-3b13-4eb5-a1fc-d89157dd3e4e.png)
 </br>
 The oil price have a negative corrlation with sales the lower oil price is the more purchasing power for the customers.
+
 ### Stores
+![image](https://user-images.githubusercontent.com/94745919/236914165-7483bbcb-6231-4668-96fb-8fe8c3512983.png)
+the plots shows:
+</br>
+* the best city sales is 'Quito' with over than 500 and percentage of 9.4% of total sales the lowest city sales is 'Puyo' with below 100 sales with only 1.2%
+* the order of best store type sales is (A,over(700),38% of sales),(B,over(300),19% of sales),(E,(300),17% of sales),(C,over(200),10.7% of sales)
+* the highest sale state is 'pichincha' with 13.2% of the sales and over 500 while the other states are close in sales with the highest percentage of 8.7 ('tungurahua') and the lowest is 'pastaza' 1.8%
 
+* the highest store culster is 5 with over then 1000 and percentage of 16%
 
-
+### Transations
 
 
 </br>
