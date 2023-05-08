@@ -73,11 +73,7 @@ Using plot_pacf to see the corrlation between 12 lags only:
 ![image](https://user-images.githubusercontent.com/94745919/236910235-c31073a6-c03b-477a-a25b-9093406898e4.png)
 </br>
 plot_pacf show a strong corrlation between lags (1 3 5 6 7 8 and 9) so we will be useing these lags in training
-</br>
-</br>
-</br>
 ### Holidays
-</br>
 After removing the transfered data so it dont causes mislead the sales showed s strong corlation with sales:
 ![image](https://user-images.githubusercontent.com/94745919/236911536-19e4502e-7ea8-4beb-a0b9-73c6eccf1431.png)
 ![image](https://user-images.githubusercontent.com/94745919/236911573-cb59cbfe-e4ac-4d07-8e64-7b3b7565d6fa.png)
