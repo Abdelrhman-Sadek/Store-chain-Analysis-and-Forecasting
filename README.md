@@ -38,6 +38,7 @@ everyday of the year the sales =0 as shown from "Daily Avg,that means that the m
 </br> 
 sales on the weekend the highest of the week and generally low on Thursdays.
 </br> 
+</br>
 Identifies the type of famliy product sold:
 ![image](https://user-images.githubusercontent.com/94745919/236906110-08262bb1-9b5a-47e0-9ebe-04de06f1523f.png)
 </br>
@@ -55,6 +56,28 @@ Worest stores sales are : [35, 30, 32, 22, 52]
 ### Determine the trend
 I choose a window of 365 days since this series has daily observations to smooth over any short-term changes within the year so that only the long term changes remains 
 ![image](https://user-images.githubusercontent.com/94745919/236907318-556012ca-cc12-436e-b259-e940841f8e6d.png)
+</br>
+The sales is increasing over the years
+
+### Determine seasonalty
+useing the periodogram to determine the seasonalty there is 10 different seasonalties Annual (1) Semiannual (2) Quarterly (4) Bimonthly (6) Monthly (12) Biweekly (26) Weekly (52) Semiweekly(104) Daily(365) Time of day
+![image](https://user-images.githubusercontent.com/94745919/236909383-ed6ff18f-3718-41ee-b84f-0866cc5f3c10.png)
+</br>
+The periodogram it suggests a strong weekly seasonality
+</br>
+![image](https://user-images.githubusercontent.com/94745919/236909762-f873d2a5-0e1c-4514-b557-1df82d7bb79d.png)
+</br>
+A lag plot of a time series shows its values plotted against its lags. Serial dependence in a time series will often become apparent by looking at a lag plot.
+</br>
+Using plot_pacf to see the corrlation between 12 lags only:
+![image](https://user-images.githubusercontent.com/94745919/236910235-c31073a6-c03b-477a-a25b-9093406898e4.png)
+</br>
+plot_pacf show a strong corrlation between lags (1 3 5 6 7 8 and 9) so we will be useing these lags in training
+
+
+
+
+
 
 
 </br>
