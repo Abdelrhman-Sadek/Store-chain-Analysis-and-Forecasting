@@ -73,6 +73,7 @@ Using plot_pacf to see the corrlation between 12 lags only:
 ![image](https://user-images.githubusercontent.com/94745919/236910235-c31073a6-c03b-477a-a25b-9093406898e4.png)
 </br>
 plot_pacf show a strong corrlation between lags (1 3 5 6 7 8 and 9) so we will be useing these lags in training
+
 ### Holidays
 After removing the transfered data so it dont causes mislead the sales showed s strong corlation with sales:
 ![image](https://user-images.githubusercontent.com/94745919/236911536-19e4502e-7ea8-4beb-a0b9-73c6eccf1431.png)
@@ -82,6 +83,7 @@ Comparing Avg_sales on holidays vs on work days
 ![image](https://user-images.githubusercontent.com/94745919/236911945-1866f144-9099-488f-aec9-e3ef6b1b3308.png)
 </br>
 Sales is significantly higer in **Holidays** 
+
 ### Oil prices 
 ![image](https://user-images.githubusercontent.com/94745919/236913120-0bab6331-3b13-4eb5-a1fc-d89157dd3e4e.png)
 </br>
