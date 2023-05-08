@@ -18,8 +18,17 @@ before beginning with the analysis frist we need to know the skewness of the dat
 the sales is highly positive skewned,the given distribution is shifted to the left and with its tail on the right side.
 </br>
 Yearly average sales by : day,week,month 
+</br>
+Daily:
 ![image](https://user-images.githubusercontent.com/94745919/236904133-b716fad4-daad-4ee7-a1dc-52b1639c1d7c.png)
 </br> 
+Weekly:
+![image](https://user-images.githubusercontent.com/94745919/236908045-d955026d-35c1-49eb-a84e-bc3cb3f039be.png)
+</br>
+Monthly:
+![image](https://user-images.githubusercontent.com/94745919/236908105-9bbbd184-2385-4b6e-80b9-a28ff66fde79.png)
+
+</br>
 Week day average sales:
 ![image](https://user-images.githubusercontent.com/94745919/236904876-15f187dc-6822-4cc1-b140-c88baf722d5f.png)
 there is an increse of sales every year that indicates a trend variable
