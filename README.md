@@ -23,11 +23,10 @@ Daily:
 ![image](https://user-images.githubusercontent.com/94745919/236904133-b716fad4-daad-4ee7-a1dc-52b1639c1d7c.png)
 </br> 
 Weekly:
-![image](https://user-images.githubusercontent.com/94745919/236908045-d955026d-35c1-49eb-a84e-bc3cb3f039be.png)
+![image](https://user-images.githubusercontent.com/94745919/236908531-fd3d279a-25e5-4206-b361-5d1b340a55f4.png)
 </br>
 Monthly:
-![image](https://user-images.githubusercontent.com/94745919/236908105-9bbbd184-2385-4b6e-80b9-a28ff66fde79.png)
-
+![image](https://user-images.githubusercontent.com/94745919/236908420-6716b2b1-bf2f-466c-9d2b-10615816963e.png)
 </br>
 Week day average sales:
 ![image](https://user-images.githubusercontent.com/94745919/236904876-15f187dc-6822-4cc1-b140-c88baf722d5f.png)
