@@ -1,4 +1,5 @@
 # Store-chain-Analysis-and-Forecasting
+<img align="center" src="https://www.softwareadvice.com/resources/wp-content/uploads/Retail-Data-Analysis-Tile.png">
 ## Description 
 **This is a complete Time_Series store chain analysis the goal was to determine**:
 
@@ -19,7 +20,7 @@
 <br/>
 then use this informations and train a Hybrid model of Liner Regression and CatBoostRegressor to forecast test_detaset(16 day) of sales for each product family in every store
 
-the acc of the Hybrid model is pretty good (a round 99%)**
+the acc of the Hybrid model is pretty good (a round 99%)
 <br/>
 Data Link: 
 <br/>
