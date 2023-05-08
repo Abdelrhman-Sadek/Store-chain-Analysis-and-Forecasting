@@ -100,7 +100,7 @@ the plots shows:
 * the highest store culster is 5 with over then 1000 and percentage of 16%
 
 ## Modeling
-Linear regression excels at extrapolating trends, but can't learn interactions. **CATBoost** excels at learning interactions, but can't extrapolate trends. In the next codes, I'll create **"hybrid"** forecasters that combine complementary learning algorithms and let the strengths of one make up for the weakness of the other.
+**Linear regression** excels at extrapolating trends, but can't learn interactions. **CATBoost** excels at learning interactions, but can't extrapolate trends. In the next codes, I'll create **"hybrid"** forecasters that combine complementary learning algorithms and let the strengths of one make up for the weakness of the other.
 </br>
 It's possible to use one algorithm for some of the components and another algorithm for the rest. This way we can always choose the best algorithm for each component. To do this, we use one algorithm to fit the original series and then the second algorithm to fit the residual series.
 </br>
