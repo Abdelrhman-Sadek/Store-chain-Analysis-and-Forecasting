@@ -125,7 +125,7 @@ y_pred = y_pred_1 + y_pred_2
 </br>
 ![image](https://user-images.githubusercontent.com/94745919/236915924-67ce48e7-c212-415f-b393-e0f36de666b7.png)
 
-## Forcasting the next 16 days sales:
+### Forcasting the next 16 days sales:
 ![image](https://user-images.githubusercontent.com/94745919/236916151-7ef5e7cf-e66e-4e0e-8d64-74ee9430bf03.png)
 
 
