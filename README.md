@@ -30,6 +30,7 @@ Monthly:
 </br>
 Week day average sales:
 ![image](https://user-images.githubusercontent.com/94745919/236904876-15f187dc-6822-4cc1-b140-c88baf722d5f.png)
+</br>
 there is an increse of sales every year that indicates a trend variable
 </br> 
 everyday of the year the sales =0 as shown from "Daily Avg,that means that the market is closed.
