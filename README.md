@@ -1,4 +1,5 @@
 # Store-chain-Analysis-and-Forecasting
+## Description 
 **This is a complete Time_Series store chain analysis the goal was to determine:
 <br/>
 . products at each store of the chain and there promotion at a given date.
