@@ -102,8 +102,6 @@ the plots shows:
 ## Modeling
 Linear regression excels at extrapolating trends, but can't learn interactions. **CATBoost** excels at learning interactions, but can't extrapolate trends. In the next codes, I'll create **"hybrid"** forecasters that combine complementary learning algorithms and let the strengths of one make up for the weakness of the other.
 </br>
-so why not use them both to get better result 
-</br>
 It's possible to use one algorithm for some of the components and another algorithm for the rest. This way we can always choose the best algorithm for each component. To do this, we use one algorithm to fit the original series and then the second algorithm to fit the residual series.
 </br>
 **In detail, the process is this:**
@@ -119,7 +117,7 @@ model_2.fit(X_train_2, y_train - y_pred_1)
 </br>
 y_pred_2 = model_2.predict(X_train_2)
 </br>
-** And then Add to get overall predictions**
+**And then Add to get overall predictions**
 </br>
 y_pred = y_pred_1 + y_pred_2
 </br>
