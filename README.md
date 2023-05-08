@@ -13,6 +13,7 @@
 * which (city, state, type) have the most and least sales. 
 
 * the trned and seasonalty of the time series and how the data changes over time(weekly,monthly,daily,etc)
+[TableauDashboard.pdf](https://github.com/Abdelrhman-Sadek/Store-chain-Analysis-and-Forecasting/files/11424054/TableauDashboard.pdf)
 
 * the relationship between sales and (Holidays(Local,Regional),Oil Price) and how big they effects the sales.
 * the relationship bettween the time lags  
