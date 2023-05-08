@@ -1,5 +1,5 @@
 # Store-chain-Analysis-and-Forecasting
-<img align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0kHivyrbuw43hgbcGGGmmYcLaNYhryY31LAOXmNX3zXbOOfIGKti1FQ-6fLZ_4oTq_3Y">
+![image](https://user-images.githubusercontent.com/94745919/236902590-375846a4-4972-4a9e-8b2a-f29a0098f3a1.png)
 
 ## Description 
 **This is a complete Time_Series store chain analysis the goal was to determine**:
